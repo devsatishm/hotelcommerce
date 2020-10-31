@@ -347,7 +347,7 @@ class MySQLCore extends Db
         }
 
         if ($engine === null) {
-            $engine = 'MyISAM';
+            $engine = 'InnoDB';
         }
 
         $result = mysql_query('
