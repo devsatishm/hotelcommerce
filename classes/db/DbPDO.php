@@ -314,7 +314,7 @@ class DbPDOCore extends Db
         }
 
         if ($engine === null) {
-            $engine = 'MyISAM';
+            $engine = 'InnoDB';
         }
 
         $result = $link->query('
